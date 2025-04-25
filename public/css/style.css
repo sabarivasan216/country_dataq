@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(41, 104, 199);
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+#countryInput {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 8px 16px;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.error {
+    color: red;
+}
